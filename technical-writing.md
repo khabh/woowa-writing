@@ -430,3 +430,12 @@ JPA를 사용하면 SQL 코드를 작성하지 않고도 데이터베이스를 �
 ### 성능 개선
 
 JPA는 영속성 컨텍스트를 통해 성능을 크게 향상시킵니다. 1차 캐시는 동일 트랜잭션 내에서 이미 조회된 엔티티를 재사용하여 데이터베이스 조회를 최소화합니다. 쓰기 지연 기능은 여러 데이터 변경을 하나의 트랜잭션에서 일괄 처리하여 데이터베이스 쓰기 작업을 최적화합니다. 변경 감지는 엔티티의 상태 변화를 자동으로 감지하여 실제로 변경된 데이터만 업데이트함으로써 불필요한 데이터베이스 작업을 줄입니다. 이 기능들이 함께 작동하여 데이터베이스와의 상호작용을 더욱 효율적으로 만듭니다.
+
+# 출처
+- [Oracle JDBC Intro](https://download.oracle.com/otn_hosted_doc/jdeveloper/904preview/jdk14doc/docs/guide/jdbc/getstart/intro.html#999974)
+
+- [Overview of Java](https://docs.oracle.com/en/database/oracle/oracle-database/12.2/jjdev/Java-overview.html)
+
+- [Hibernate ORM - What is Object/Relational Mapping?](https://hibernate.org/orm/what-is-an-orm/)
+
+- [[도서] 자바 ORM 표준 JPA 프로그래밍](https://search.shopping.naver.com/book/catalog/32436007738?cat_id=50010920&frm=PBOKPRO&query=%EC%9E%90%EB%B0%94+ORM+%ED%91%9C%EC%A4%80+JPA+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D&NaPm=ct%3Dm152rxqo%7Cci%3Dba47d3197a193beb3a9d070a1f66c95c269705be%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3D3684cb65cd5c91cbc9c500162d4a3fc602a9b11f)
